@@ -1,0 +1,73 @@
+body {
+	background-color: black;
+  text-align: center;
+  overflow: hidden;
+}
+#text {		/*Used for debugging*/
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+}
+#text1 {	/*Used for debugging*/
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 25px;
+}
+#text2 {	/*Used for debugging*/
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 40px;
+}
+#contain {
+	position: relative;
+	display: inline-block;
+	background-color: white;
+	width: 600px;
+	height: 600px;
+	/*overflow: hidden;*/
+}
+.strike{
+	position: absolute;
+}
+.spell{
+	position: absolute;
+}
+.Back {
+	position: absolute;
+	border: 5px solid black;
+}
+.Sprite {
+	position: absolute;
+}
+#Health {
+	border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  height: 10px;
+  width: 30%;
+}
+#Stamina {
+	border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  top: 10px;
+  left: 34.5%;
+  height: 10px;
+  width: 30%;
+}
+#Magic {
+	border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  top: 10px;
+  left: 67%;
+  height: 10px;
+  width: 30%;
+}
